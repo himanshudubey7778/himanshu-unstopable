@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Checkout</title>
+</head>
+<body>
+    <form>
+        <form action="https://ecom.com"></form>
+        <h3>Checkout</h3>
+
+    <fieldset>
+        <legend>Billing Information</legend>
+
+        <label for="name">Full Name</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <label for="address">Address</label>
+        <textarea name="address" id="address" required></textarea><br><br>
+
+        <label for="phonenumber">PhoneNumber</label>
+        <input type="phonenumber" name="phonenumber" id="phonenumber" required><br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Payment</legend>
+
+        <label for="cerditCardNumber">Credit Card Number</label>
+        <input type="text" minlength="16" maxlength="16" name="creditCardNumber" id="creditCardNumber">
+
+        <label for="expiryDate">Expiry Date</label>
+        <input type="date" name="expiryDate" id="expiryDate" required>
+
+        <label for="cvv">CVV</label>
+        <input type="password" name="cvv" id="cvv" minlength="3" maxlength="3" required> <br><br>
+        
+    </fieldset>
+    <button type="submit">place holder</button>
+        
+</form>
+</body>
+</html>
